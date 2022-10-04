@@ -1,9 +1,7 @@
-let center = [48.8866527839977,2.34310679732974];
-
 function init() {
 	let map = new ymaps.Map('map-test', {
-		center: center,
-		zoom: 17
+		center: [55.73550323026249,36.86435236179591],
+		zoom: 11
 	});
 
 	map.controls.remove('geolocationControl'); // удаляем геолокацию
